@@ -1,1 +1,2 @@
-Projekti nr.2 i realizuar
+Push - Uploado ne Github
+Pull - Download nga Github

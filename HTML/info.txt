@@ -1,0 +1,2 @@
+Ne <head> vendosen informacionet per palet e treta (Browser, motorrave kerkues)
+Ne <body> vendosen gjithqka qe deshiron te shfaqet ne faqe
