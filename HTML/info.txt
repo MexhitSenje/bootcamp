@@ -7,3 +7,7 @@
 <b> Ky tag sherben qe te behet teksti i trash BOLD
 <br /> Ky tag eshte vetembylles dhe sherben per nje kryerresht te ri
 <!-- --> Sherben si komentim ne HTML Code
+border="9" - Hijezim ne ter tabelen
+bgcolor="red" - Ngjyre per tabelen
+cellpadding="20" - Hapsir nga teksti deri ne korniz
+cellspacing="20" - Hapsir rreth tabelave
