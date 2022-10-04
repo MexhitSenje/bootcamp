@@ -7,14 +7,94 @@
     <title>Web Formularet ne HTML</title>
 </head>
 <body>
-    <form>
-        <input type="text" placeholder="Emri juaj" minlength="5" maxlength="15" />
-        <input type="search" name="kerkuesi" placeholder="Kerko"/>
-        <input type="password" name="passwordi" id="password"/>
+    <form method="get">
+        <fieldset>
+            <legend>Te dhenat personale</legend>
+            <input type="text" placeholder="Emri juaj" minlength="3" maxlength="15" />
         <br> <br>
-        <input type="submit" value="Dergo te dhenat" />
-        <input type="reset" value="Reset" />
-        
-    </form>
+        <input type="search" name="kerkuesi" placeholder="Kerko"/>
+        <br> <br>
+        <input type="password" name="passwordi" placeholder="fjalekalimi" id="password"/>
+        <br> <br>
+        <input type="tel" name="Telefoni" placeholder="Nr. tel" required /> <!-- Krijon formular per numer te telefonit -->
+        <br> <br>
+        <input type="email" name="email" id="email" placeholder="E-Mail" />
+        <br> <br>
+        </fieldset>
+        <fieldset>
+            <legend>Butonat</legend>
+            <!--Butonat -->
+                <input type="submit" value="Dergo te dhenat" /> <!--I dergon te dhenat -->
+                <button type="submit">Dergooo</button>
+                <br> <br>
+                <input type="button" value="Dergo te dhenat Button" /> <!--Nuk i dergon te dhenat e formularit, me mire perdore Submit-->
+        <br> <br>
+        <input type="reset" value="Reset" /> <!--I pastron te gjitha fushat -->
+        </fieldset>
+        <br> <br>
+        <input type="number" name="grade" min="0" max="100" value="0" step="5" />
+        <br> <br>
+        <input type="color" name="color" id="color" />
+        <br> <br>
+        <input type="date" />
+        <br> <br>
+        <input type="datetime-local" />
+        <br> <br>
+        <input type="time" />
+        <br> <br>
+        <input type="file" name="File" required accept=".png, image/jpeg" />
+        <!--Me krijue foto nga kamera e telefonit -->
+        <p>
+            <label for="imageFile">Dergo nje foto nga kamera e telefonit</label>
+            <input type="file" id="imageFile" capture="user" accept="image/*" />
+        </p>
+        <input type="image" src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/WOPA160517_D056-resized.jpg?crop=864%2C0%2C1728%2C2304&wid=600&hei=800&scl=2.88" width="" height="350" />
+        <br> <br>
+        <input type="checkbox" name="zgjedhje" value="Pizza" id="pica" />
+        <label for="pica">Pizza</label>
+        <input type="checkbox" name="zgjedhje" value="cola" id="cola" />
+        <label for="cola">Coca Cola</label>
+        <input type="checkbox" name="zgjedhje" value="RedBull" id="RedBull" />
+        <label for="RedBull">RedBull</label>
+        <br> <br>
+        <input type="radio" name="perbersit" value="djath" id="djath" />
+        <label for="djath">djath</label>
+        <input type="radio" name="perbersit" value="djegs" id="djegs" />
+        <label for="djegs">djegs</label>
+        <input type="radio" name="perbersit" value="keqap" id="keqap" />
+        <label for="keqap">keqap</label>
+        <br> <br>
+        <label for="volume">Zeri</label>
+        <input type="range" id="volume" name="volume" min="0" max="100" value="10" step="5" />
+        <br><br>
+        <input type="url" name="url" placeholder="URL adresa" required />
+        <br><br>
+        <textarea name="message" id="message" placeholder="Shkruaj mesazhin tuaj" rows="20" cols="40" ></textarea>
+        <br> <br>
+        <label for="Lista e pijeve">zgjedhe nje pije ne list</label>
+        <input list="pijet" />
+        <datalist id="pijet">
+            <option value="Cola">Cola</option>
+            <option value="Uje">Uje</option>
+            <option value="kaffe">kaffe</option>
+            <option value="fanta">fanta</option>
+            <option value="machiato">machiato</option>
+        </datalist>
+        <br> <br>
+        <label for="laptops">Llojet e llaptopeve</label>
+        <select name="laptops" id="laptops">
+            <option value="">---Zgjidhe nje Laptop---</option>
+            <option value="HP">HP</option>
+            <option value="Acer">Acer</option>
+            <option value="Aspire">Aspire</option>
+            <optgroup label="DELL">
+                <option value="">Dell 5520</option>
+                <option value="">Dell 5400</option>
+                <option value="">Dell 5280</option>
+            </optgroup>
+        </select>
+        <br> <br>
+
+        <br> <br>
 </body>
 </html>

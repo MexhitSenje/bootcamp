@@ -11,3 +11,4 @@ border="9" - Hijezim ne ter tabelen
 bgcolor="red" - Ngjyre per tabelen
 cellpadding="20" - Hapsir nga teksti deri ne korniz
 cellspacing="20" - Hapsir rreth tabelave
+required - ee tjetersueshme
