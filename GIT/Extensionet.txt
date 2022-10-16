@@ -1,2 +1,3 @@
 - indent-rainbow
 - Live Server
+- Highlight Matching Tag

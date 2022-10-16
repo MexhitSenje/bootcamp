@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <head>
+        <title>Computerspiel</title>
+    </head>
+    <style>
+    body {
+        background-color: rgb(105, 0, 158);
+        font-family: Tahoma;
+        color: #e4afe1;
+    }
