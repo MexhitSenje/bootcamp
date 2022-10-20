@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porosit</title>
+</head>
+<body>
+    <h1>Porosit Online</h1>
+    <form method="get">
+        <fieldset>
+            <legend>Te dhenat personale</legend>
+            <label>Emri</label>
+            <br>
+            <input type="text" placeholder="Emri" minlength="3" maxlength="15" />
+            <br><br>
+            <label>Mbiemri</label>
+            <br>
+            <input type="text" placeholder="Mbiemri" minlength="3" maxlength="15" />
+            <br><br>
+            <label>Shteti</label>
+            <br>
+            <select name="laptops" id="laptops">
+                <option value="HP">Kosov</option>
+                <option value="Acer">Shqipri</option>
+                <option value="Aspire">Maqedoni e veriut</option>
+            </select>
+            <br><br>
+            <label>Qyteti</label>
+            <br>
+            <input type="text" placeholder="Qyteti" minlength="3" maxlength="12" />
+            <br><br>
+            <label>Nr. Tel.:</label>
+            <br>
+            <input type="tel" name="Telefoni" placeholder="Nr. tel" required />
+            <br> <br>
+            <label>E-Mail</label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="E-Mail" />
+        </fieldset>
+        <fieldset>
+            <legend>Te dhenat per porosin</legend>
+            <label>Sasia</label>
+            <br>
+            <input type="number" name="grade" min="1" max="10" value="0" step="1" />
+            <br><br>
+            <input type="radio" name="zgjedhje" value="Cokolad" id="Cokolad" />
+        <label for="radio">Cokolad</label>
+        <input type="checkbox" name="zgjedhje" value="Karamel" id="colKaramela" />
+        <label for="radio">Karamel</label>
+        <input type="checkbox" name="zgjedhje" value="Vanile" id="Vanile" />
+        <label for="radio">Vanile</label>
+        <input type="checkbox" name="zgjedhje" value="Luleshtrydhe" id="Luleshtrydhe" />
+        <label for="radio">Luleshtrydhe</label>
+        <br> <br>
+        <label>Extra</label>
+        <br>
+        <textarea name="message" id="message" placeholder="Shkruaj mesazhin tuaj" rows="20" cols="40" ></textarea>
+        <br><br>
+        <label for="Lista e pijeve">Porosit nje pije nga lista</label>
+        <input list="pijet" />
+        <datalist id="pijet">
+            <option value="Coca Cola">Coca Cola</option>
+            <option value="Uje mineral">Uje mineral</option>
+            <option value="Fanta Exotik">Fanta Exotik</option>
+            <option value="Fanta Orange">Fanta Orange</option>
+            <option value="Schweppes">Schweppes</option>
+        </datalist>
+        <br> <br>
+        <select name="laptops" id="laptops">
+            <option value="">---Porosia per---</option>
+            <option value="Lokal">Lokal</option>
+            <option value="Merr me vehti">Merr me vehti</option>
+        </select>
+        </fieldset>
+    </form>
+    <input type="submit" value="Dergo porosin" />
+    <input type="reset" value="Fshije te dhenat" />
+</body>
+</html>
