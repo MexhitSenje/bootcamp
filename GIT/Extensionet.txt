@@ -3,3 +3,9 @@
 - Highlight Matching Tag
 - Autoclose
 - Path Intelisense
+- IntelliSense for CSS class names in HTML
+- Auto Close Tag
+- Auto Rename Tag
+- Better Comments
+- codesnap
+- Colorize 
