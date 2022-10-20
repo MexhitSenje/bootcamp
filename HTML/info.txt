@@ -12,3 +12,6 @@ bgcolor="red" - Ngjyre per tabelen
 cellpadding="20" - Hapsir nga teksti deri ne korniz
 cellspacing="20" - Hapsir rreth tabelave
 required - ee tjetersueshme
+<input type="submit" value="Dergo te dhenat" /> <!--Buttona qe i dergon te dhenat -->
+<input type="tel" name="Telefoni" placeholder="Nr. tel" required /> <!-- Krijon formular per numer te telefonit -->
+<input type="reset" value="Reset" /> <!--Button qe i pastron te gjitha fushat -->
