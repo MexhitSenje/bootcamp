@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* keshtu krijohet komentimi ne CSS */
+        /*Selectors - Selektori universal */
+        /* keshtu selektohet komplet faqja */
+        * {
+          background-color: aquamarine;  
+        }
+        /* keshtu selektohet vetem body*/
+        body {
+            background-color: red;
+        }
+        /*ky eshte selektor universal dhe aplikohet mbite gjitha elementet HTML*/
+        html, body {
+            background-color: transparent;
+        }
+        /*Selektori i tipit te elementit ose selektim permet tagut*/ 
+        p {
+            background-color: aliceblue;
+        }
+        a {
+            font-size: large;
+        }
+        /* Selektori i klasave perdoret simboli pik para emrit te klasses*/
+        .cite {
+            margin-left: 20px;
+            border-left: 5px solid black;
+        }
+        .klasifikim {
+            margin-left: 40px;
+            border-left: 10px solid red;
+        }
+        /*Selektori ID (para emrit te ID vendoset simboli # */
+        #first {
+            background-color: blue;
+            font-size: 30px;
+        }
+
+        /*Selektori me femij*/
+
+    li > a{
+        color: red;
+    }
+
+    
+    </style>
+</head>
+<body>
+    <h1>Welcome</h1>
+    <p class="cite">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptatem pariatur, ullam placeat praesentium minima earum? Ratione dolor excepturi expedita est quo ipsa tempora nobis quia! Quam error cumque perspiciatis.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptatem pariatur, ullam placeat praesentium minima earum? Ratione dolor excepturi expedita est quo ipsa tempora nobis quia! Quam error cumque perspiciatis.
+    </p>
+    <p id="first">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptatem pariatur, ullam placeat praesentium minima earum? Ratione dolor excepturi expedita est quo ipsa tempora nobis quia! Quam error cumque perspiciatis.
+    </p>
+    <p class="cite">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptatem pariatur, ullam placeat praesentium minima earum? Ratione dolor excepturi expedita est quo ipsa tempora nobis quia! Quam error cumque perspiciatis.
+    </p>
+    <p class="klasifikim">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptatem pariatur, ullam placeat praesentium minima earum? Ratione dolor excepturi expedita est quo ipsa tempora nobis quia! Quam error cumque perspiciatis.
+    </p>
+    <a href="#">Read more</a>
+
+    <!-- ketu fillon ushtrimi tjeter-->
+    <!-- Selektori me femij-->
+    <h1>Register</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum repudiandae saepe alias deserunt voluptates nostrum odit iusto quo similique, ipsa distinctio illum autem, quas eaque voluptas quis! Tempora, expedita! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, accusamus ipsam corrupti deserunt odio delectus in ab recusandae illum ad dicta! Velit tempora quo fuga, mollitia harum officia atque accusantium?</p>
+    <p>Liria</p>
+    <ul>
+        <li><a href="#">One</a></li>
+        <li><a href="#">dy</a></li>
+        <li><a href="#">tre</a></li>
+    </ul>
+</body>
+</html>

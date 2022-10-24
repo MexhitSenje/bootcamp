@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Atribute selektors</title>
+    <style>
+        /*selektor per shkronjen e pare te madhe*/
+        p::first-letter {
+            font-size: 55px;
+        }
+        /*Selektori atribut*/
+        p[class] {
+            font-size: 30px;
+            border: 20px solid blue;
+            padding: 30px 40px 20px 50px;
+            background-color: aquamarine;
+        }
+        p {
+            border: 15px solid red;
+        }
+    </style>
+</head>
+<body>
+    <p class="first">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur cupiditate saepe ipsum accusamus ex obcaecati corporis! Suscipit omnis, quis praesentium nisi, atque, nesciunt eius est et alias illo fugiat deleniti!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis ipsam voluptate, ea minima pariatur quibusdam perferendis molestiae nihil incidunt. Animi cum consequuntur aliquid ipsam suscipit incidunt eaque deleniti odit minima.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, a impedit molestias adipisci perferendis vero, ab veritatis nemo, hic vel cupiditate! Iusto nam totam exercitationem, sapiente accusamus consectetur possimus veniam!</p>
+    <p class="last">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident doloribus minima, veniam aliquam non, incidunt ab numquam tempore culpa pariatur quis eos adipisci eaque et beatae? Tempora modi animi officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptates facere accusamus quo voluptate voluptatum praesentium ullam doloremque, voluptas deleniti exercitationem culpa maiores vero qui ratione quae saepe rem odio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa suscipit dolores numquam neque alias nihil nobis hic, asperiores ipsam, maxime, quos delectus blanditiis deleniti voluptate nostrum voluptatem in omnis ad.</p>
+</body>
+</html>

@@ -1,0 +1,2 @@
+komentimi ne CSS /* */
+hapsir edhe "Pading"
