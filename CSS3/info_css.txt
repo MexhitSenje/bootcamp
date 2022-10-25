@@ -1,2 +1,2 @@
 komentimi ne CSS /* */
-hapsir edhe "Pading"
+hapsir eshte "Pading"
