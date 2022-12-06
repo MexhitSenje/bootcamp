@@ -1,9 +1,0 @@
-﻿<p>Ich möchte hier einen Zeilenumbruch sehen. </p>
-<p>Ich bin fett formatiert.</p>
-<p>Ich bin kursiv formatiert.</p>
-<p>Ich bin unterstrichen formatiert.</p>
-<p>H2S04 und CO3 sind chemische Formeln.</p>
-<p>Rechnen Sie folgendes aus: an + bn = ?</p>
-<p>Matthäus Hürner ist ein äußerst cleverer Geschäftsmann. Er war er Begründer der Firma C&A.
-Gestern habe ich dort eine Jeans um 99 € gekauft. </p>
-
