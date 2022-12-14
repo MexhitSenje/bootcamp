@@ -1,6 +1,6 @@
 <head> vendosen informacionet per palet e treta (Browser, motorrave kerkues)
 <body> vendosen gjithqka qe deshiron te shfaqet ne faqe
-<meta charset="UTF-8"> Keto jan meta etiketat qe sherbejn per Motorret e kerkimi, rrjetet sociale et.
+<meta charset="UTF-8"> Keto jan meta etiketat qe sherbejn per Motorret e kerkimi, rrjetet sociale etj dhe vendosen ne head
 <h1> h1 deri ne h6 tregon per Titullin me nivele te ndryshme
 <p> tregon per paragraf hapes, ndersa </p> tregon per paragraf mbylles (Me nje fjal ketu jepet shkrimi i deshiruar)
 <q> Krijon thojzat dhe eshte tag semantik per motorret e kerkimit
